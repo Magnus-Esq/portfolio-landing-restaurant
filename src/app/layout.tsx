@@ -21,8 +21,6 @@ const inter = Inter({
 const fraunces = Fraunces({
   variable: "--font-fraunces",
   subsets: ["latin"],
-  // Fraunces имеет optical sizing, можно включить
-  axis: "opsz",
 });
 
 export const metadata: Metadata = {
