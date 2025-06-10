@@ -1,0 +1,67 @@
+.clientsSays {
+  min-height: 690px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.quotesIcon {
+  margin: auto;
+  padding-top: 100px;
+}
+
+.clientsSaysHeading {
+  font-family: Fraunces;
+  font-weight: 600;
+  font-size: 50px;
+  color: #0a0a0a;
+  padding: 40px 0;
+}
+
+.clientSaysReviewsBox {
+  height: 311px;
+  width: 855px;
+  margin: 0 auto;
+}
+
+.clientSaysReview {
+  height: 198px;
+  width: 839px;
+  margin: 0 auto;
+}
+
+.clientSaysText {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  color: #5e5e5e;
+}
+
+.clientSaysReviewAuthor {
+  height: 97px;
+  padding: 20px 0;
+}
+
+.clientSaysAvatars {
+  height: 132px;
+  padding-bottom: 32px;
+  margin: auto;
+}
+
+.reviewList {
+  height: 16px;
+  margin: 0 auto;
+}
+
+.clientSaysReviewAuthorName {
+  font-family: Fraunces;
+  font-weight: 600;
+  font-size: 24px;
+  color: #000000;
+}
+
+.clientSaysReviewAuthorRole {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 16px;
+  color: #5e5e5e;
+}

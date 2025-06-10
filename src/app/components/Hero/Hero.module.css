@@ -1,0 +1,187 @@
+.hero {
+  min-height: 660px;
+  background-image: url('../../../../public/img/Hero.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.heroHeader {
+  padding-top: 20px;
+  padding-left: 72px;
+  padding-right: 72px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.headerLogo {
+  height: 40px;
+}
+
+.heroNav {
+  width: 340px;
+  height: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.heroMain {
+  margin: 42px 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heroMainLeft {
+  width: 842px;
+  height: 211px;
+}
+
+.heroMainHeading {
+  font-family: Fraunces;
+  font-weight: 600;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.heroMainText {
+  padding: 24px 0;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  color: #5e5e5e;
+}
+
+.headerText {
+  font-family: Fraunces;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.headerText:hover {
+  color: #349705;
+}
+
+.heroButtons {
+  height: 40px;
+  display: flex;
+  gap: 8px;
+}
+
+.MainMenuButton,
+.SeasonalMenuButton {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.MainMenuButton:hover,
+.SeasonalMenuButton:hover {
+  transform: scale(1.03);
+}
+
+.reservationBox {
+  background: white;
+  padding: 32px;
+  width: 340px;
+  height: 444px;
+  border-radius: 4px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  font-family: Inter;
+}
+
+.reservationLabel {
+  color: #349705;
+  font-family: Fraunces;
+  font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.reservationTitle {
+  font-size: 20px;
+  font-family: Fraunces;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.reservationBox form label {
+  display: block;
+  margin-bottom: 4px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.reservationBox form input,
+.reservationBox form select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 3px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 0px;
+}
+
+.reservationBox form button {
+  background-color: #349705;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 0px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: Inter;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.reservationBox form button:hover {
+  background-color: #43a047;
+}
+
+.heroLowerTextblock {
+  position: absolute;
+  right: 72px;
+  height: 52px;
+  width: 462px;
+}
+
+.heroLowerTextblockUpper {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.phoneContainer {
+  display: flex;
+  align-items: center;
+}
+
+.heroLowerTextblockBook {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  padding-right: 6px;
+}
+
+.heroLowerTextblockNumber {
+  font-family: Fraunces;
+  font-weight: 700;
+  font-size: 20px;
+  color: #349705;
+}
+
+.heroLowerTextblockLower {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  color: #5e5e5e;
+}

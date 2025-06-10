@@ -1,0 +1,126 @@
+.orderOnline {
+  min-height: 985px;
+  text-align: center;
+  padding: 60px 72px;
+  background-color: #FFFFFF;
+}
+
+.restaurantIcon {
+  margin: auto;
+}
+
+.orderOnlineTextblock {
+  text-align: center;
+  width: 700px;
+  height: 128px;
+  margin: auto;
+  margin-bottom: 45px;
+}
+
+.orderOnlineHeading {
+  font-family: Fraunces;
+  font-weight: 600;
+  font-size: 40px;
+  color: #0a0a0a;
+  padding-top: 4px;
+  padding-bottom: 24px;
+  height: 77px;
+}
+
+.orderOnlineText {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  color: #5E5E5E;
+}
+
+.orderMenu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.orderLeft {
+  width: 660px;
+  height: 692px;
+  padding-right: 24px;
+}
+
+.orderRight {
+  width: 660px;
+  height: 692px;
+  padding-left: 24px;
+}
+
+.orderMenuFood {
+  width: 636px;
+  height: 108px;
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.orderMenuFoodText {
+  width: 544px;
+  height: 54px;
+}
+
+.menuHeaderPizzas {
+  padding-bottom: 8px;
+}
+
+.menuHeaderSalads {
+  padding-bottom: 8px;
+}
+
+.menuHeaderMain {
+  padding-top: 64px;
+  padding-bottom: 8px;
+}
+
+.foodHeaderContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.foodHeader {
+  font-family: Fraunces;
+  font-weight: 600;
+  font-size: 20px;
+  color: #0a0a0a;
+}
+
+.foodCost {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  color: #0a0a0a;
+}
+
+.foodText {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  color: #5E5E5E;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.avatarFood1,
+.avatarFood2,
+.avatarFood3,
+.avatarFood4,
+.avatarFood5,
+.avatarFood6,
+.avatarFood7,
+.avatarFood8,
+.avatarFood9,
+.avatarFood10,
+.avatarFood11 {
+  height: 84px;
+  width: 84px;
+  border-radius: 50%;
+  object-fit: fill;
+}

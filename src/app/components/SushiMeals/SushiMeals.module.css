@@ -1,0 +1,115 @@
+.sushiMeals {
+  min-height: 817px;
+  text-align: center;
+  padding: 60px 72px;
+  background-color: #ffffff;
+}
+
+.sushiMealsTextblock {
+  text-align: center;
+  width: 700px;
+  height: 160px;
+  margin: 0 auto 45px;
+}
+
+.restaurantIcon {
+  margin: auto;
+}
+
+.sushiMealsHeading {
+  font-family: Fraunces;
+  font-weight: 600;
+  font-size: 40px;
+  color: #0a0a0a;
+  padding: 4px 0 24px;
+  height: 77px;
+}
+
+.sushiMealsText {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  color: #5e5e5e;
+}
+
+.sushiCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sushiCard1:hover,
+.sushiCard2:hover,
+.sushiCard3:hover {
+  transform: translateY(-5px);
+}
+
+.sushiCardsGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.sushiCard1,
+.sushiCard2,
+.sushiCard3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  transition: transform 0.3s ease;
+}
+
+.sushiCard1 {
+  width: 306px;
+  height: 229px;
+}
+
+.sushiCard2 {
+  width: 306px;
+  height: 261px;
+  padding-top: 32px;
+}
+
+.sushiCard3 {
+  width: 736px;
+  height: 497px;
+  padding-left: 100px;
+}
+
+.sushiUramaki,
+.sushiMaki,
+.sushiSet {
+  object-fit: contain;
+}
+
+.sushiUramaki {
+  width: 140px;
+  height: 130px;
+}
+
+.sushiMaki {
+  width: 140px;
+  height: 130px;
+}
+
+.sushiSet {
+  width: 594px;
+  height: 390px;
+}
+
+.sushiCardHeading {
+  font-family: Fraunces;
+  font-weight: 600;
+  font-size: 24px;
+  color: #000000;
+  margin: 16px 0 8px;
+}
+
+.sushiCardText {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  color: #5e5e5e;
+  text-align: center;
+  line-height: 1.5;
+}
