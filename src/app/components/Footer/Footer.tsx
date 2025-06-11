@@ -13,9 +13,7 @@ const Footer = () => {
         <div className={styles.footerColumn}>
           <h4 className={styles.footerHeading}>Book a Table</h4>
           <p className={styles.footerText}>
-            Urna quam massa urna dolor enim dui<br />
-            Tristique dignissim pharetra feugiat<br />
-            Vivamus libero feugiat
+            Urna quam massa<br />urna dolor enim dui 
           </p>
           <p className={styles.footerNumber}>(525) 847-0411</p>
         </div>

@@ -84,8 +84,9 @@
   }
 
   .footerColumns {
+    width: 80%;
     display: flex;
-    gap: 20px;
+    gap: 5px;
     justify-content: space-between;
     margin: 0 auto;
   }
@@ -101,7 +102,7 @@
     font-weight: 700;
     font-size: 14px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 25px;
   }
 
   .footerHeading {
