@@ -28,7 +28,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <p className={styles.footerCopyright}>© Copyright Restaurant 2025. Design by Nikita Slesarenko.</p>
+      <p className={styles.footerCopyright}>© Copyright Restaurant 2025. Design by Figma.</p>
     </footer>
   );
 };

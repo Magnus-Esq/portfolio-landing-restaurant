@@ -1,5 +1,6 @@
 .splendidMenu {
-  min-height: 666px;
+  height: 666px;
+  min-width: 1280px;
   text-align: center;
   padding: 60px 72px 0;
   background-color: #ffffff;

@@ -4,7 +4,7 @@ import styles from './ClientSays.module.css';
 const ClientSays = () => {
   return (
     <section className={styles.clientsSays}>
-      <div className={styles.clientSaysHeading}>
+      <div className={styles.clientSaysHeadingBox}>
         <img src="../img/quotes.svg" className={styles.quotesIcon} alt="Quotes icon" />
         <h4 className={styles.clientsSaysHeading}>What our clients say about us</h4>
       </div>

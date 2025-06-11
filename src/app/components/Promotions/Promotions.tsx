@@ -97,16 +97,18 @@ const Promotions = () => {
 
   return (
     <section className={styles.promotions}>
-      <div className={styles.gallery}>
-        {galleryItems.map((item) => (
-          <div key={item.id} className={item.className}>
-            {item.type === 'image' ? (
-              <img src={item.src} className={styles.galleryImg} alt={item.alt} />
-            ) : (
-              item.content
-            )}
-          </div>
-        ))}
+      <div className={styles.galleryContainer}>
+        <div className={styles.gallery}>
+          {galleryItems.map((item) => (
+            <div key={item.id} className={item.className}>
+              {item.type === 'image' ? (
+                <img src={item.src} className={styles.galleryImg} alt={item.alt} />
+              ) : (
+                item.content
+              )}
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

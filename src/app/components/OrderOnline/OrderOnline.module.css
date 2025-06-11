@@ -1,5 +1,6 @@
 .orderOnline {
-  min-height: 985px;
+  height: 985px;
+  min-width: 1280px;
   text-align: center;
   padding: 60px 72px;
   background-color: #FFFFFF;
@@ -41,19 +42,19 @@
 }
 
 .orderLeft {
-  width: 660px;
+  width: 596px;
   height: 692px;
   padding-right: 24px;
 }
 
 .orderRight {
-  width: 660px;
+  width: 596px;
   height: 692px;
   padding-left: 24px;
 }
 
 .orderMenuFood {
-  width: 636px;
+  width: 572px;
   height: 108px;
   padding-top: 24px;
   display: flex;
@@ -62,7 +63,7 @@
 }
 
 .orderMenuFoodText {
-  width: 544px;
+  width: 480px;
   height: 54px;
 }
 

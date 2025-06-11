@@ -1,12 +1,19 @@
 .clientsSays {
-  min-height: 690px;
+  height: 690px;
+  min-width: 1280px;
   text-align: center;
   background-color: #ffffff;
+  padding: 100px 0;
+}
+
+.clientSaysHeadingBox {
+  height: 180px;
+  width: 855px;
+  margin: 0 auto;
 }
 
 .quotesIcon {
   margin: auto;
-  padding-top: 100px;
 }
 
 .clientsSaysHeading {
@@ -14,7 +21,8 @@
   font-weight: 600;
   font-size: 50px;
   color: #0a0a0a;
-  padding: 40px 0;
+  text-align: center;
+  padding-top: 40px;
 }
 
 .clientSaysReviewsBox {

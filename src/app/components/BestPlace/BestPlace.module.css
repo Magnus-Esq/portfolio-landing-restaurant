@@ -1,6 +1,7 @@
 .bestPlace {
-  min-height: 720px;
-  padding: 60px 72px;
+  height: 720px;
+  min-width: 1280px;
+  padding: 60px 0;
   display: flex;
   align-items: center;
   justify-content: center;

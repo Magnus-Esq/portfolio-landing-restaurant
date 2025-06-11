@@ -1,5 +1,6 @@
 .sushiMeals {
-  min-height: 817px;
+  height: 817px;
+  min-width: 1280px;
   text-align: center;
   padding: 60px 72px;
   background-color: #ffffff;
