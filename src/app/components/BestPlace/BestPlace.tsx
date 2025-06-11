@@ -18,8 +18,8 @@ const BestPlace = () => {
           Best place to find your<br />food love
         </h4>
         <p className={styles.bestPlaceText}>
-          Aliquet egestas gravida orci nulla lacus suspendisse. Vel<br />
-          ullamcorper ultrices volutpat enim dignissim id purus. Urna quam<br />
+          Aliquet egestas gravida orci nulla lacus suspendisse. Vel 
+          ullamcorper ultrices volutpat enim dignissim id purus. Urna quam 
           massa urna dolor enim dui lectus id...
         </p>
         <img 

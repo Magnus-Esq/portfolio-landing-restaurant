@@ -12,8 +12,8 @@ const ClientSays = () => {
         <div className={styles.clientSaysReview}>
           <img src="./img/avatars.svg" className={styles.clientSaysAvatars} alt="Client avatar" />
           <p className={styles.clientSaysText}>
-            Eu id cras morbi consectetur viverra eleifend pellentesque dui. Senectus commodo morbi aliquet eget quis<br />
-            gravida. Ut vel curabitur ut a id tempor. Viverra non commodo vel ac aliquet. Ac euismod tincidunt sed quam<br />
+            Eu id cras morbi consectetur viverra eleifend pellentesque dui. Senectus commodo morbi aliquet eget quis 
+            gravida. Ut vel curabitur ut a id tempor. Viverra non commodo vel ac aliquet. Ac euismod tincidunt sed quam 
             pharetra laoreet nisl mollis vitae.
           </p>
         </div>

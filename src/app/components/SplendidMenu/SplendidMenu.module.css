@@ -1,81 +1,166 @@
-.splendidMenu {
-  height: 666px;
-  min-width: 1280px;
-  text-align: center;
-  padding: 60px 72px 0;
-  background-color: #ffffff;
+/* Desktop version */
+@media (min-width: 768px) {
+  .splendidMenu {
+    height: 666px;
+    min-width: 1280px;
+    text-align: center;
+    padding: 60px 72px 0;
+    background-color: #ffffff;
+  }
+
+  .splendidMenuTextblock {
+    text-align: center;
+    width: 610px;
+    height: 86px;
+    margin: 0 auto 40px;
+  }
+
+  .splendidMenuHeading {
+    font-family: Fraunces;
+    font-weight: 600;
+    font-size: 40px;
+    color: #0a0a0a;
+    padding-top: 4px;
+    height: 66px;
+  }
+
+  .splendidMenuCards {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .splendidMenuCard1,
+  .splendidMenuCard2,
+  .splendidMenuCard3,
+  .splendidMenuCard4 {
+    width: 306px;
+    height: 420px;
+    padding: 60px 30px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .restaurantIcon {
+    margin: auto;
+  }
+
+  .splendidMenuCard1 {
+    background-image: url(../../../../public/img/desserts.png);
+  }
+
+  .splendidMenuCard2 {
+    background-image: url(../../../../public/img/coffee.png);
+  }
+
+  .splendidMenuCard3 {
+    background-image: url(../../../../public/img/breakfast.png);
+  }
+
+  .splendidMenuCard4 {
+    background-image: url(../../../../public/img/cocktails.png);
+  }
+
+  .splendidMenuCardHeading {
+    font-family: Fraunces;
+    font-weight: 600;
+    font-size: 26px;
+    color: #ffffff;
+    padding-bottom: 40px;
+    height: 75px;
+  }
+
+  .viewMenuButton {
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+
+  .viewMenuButton:hover {
+    transform: scale(1.05);
+  }
 }
 
-.splendidMenuTextblock {
-  text-align: center;
-  width: 610px;
-  height: 86px;
-  margin: 0 auto 40px;
-}
+/* Mobile version */
+@media (max-width: 768px) {
+  .splendidMenu {
+    height: 990px;
+    min-width: 340px;
+    text-align: center;
+    padding: 30px 10px;
+    background-color: #ffffff;
+  }
 
-.splendidMenuHeading {
-  font-family: Fraunces;
-  font-weight: 600;
-  font-size: 40px;
-  color: #0a0a0a;
-  padding-top: 4px;
-  height: 66px;
-}
+  .splendidMenuTextblock {
+    text-align: center;
+    width: 280px;
+    height: 110px;
+    margin: 0 auto 30px;
+  }
 
-.splendidMenuCards {
-  display: flex;
-  justify-content: center;
-  gap: 18px;
-}
+  .splendidMenuHeading {
+    font-family: Fraunces;
+    font-weight: 600;
+    font-size: 28px;
+    color: #0a0a0a;
+    padding-top: 10px;
+    height: 90px;
+  }
 
-.splendidMenuCard1,
-.splendidMenuCard2,
-.splendidMenuCard3,
-.splendidMenuCard4 {
-  width: 306px;
-  height: 420px;
-  padding: 60px 30px;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-}
+  .splendidMenuCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
 
-.restaurantIcon {
-  margin: auto;
-}
+  .splendidMenuCard1,
+  .splendidMenuCard2,
+  .splendidMenuCard3,
+  .splendidMenuCard4 {
+    width: 320px;
+    height: 180px;
+    padding: 30px 30px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
 
-.splendidMenuCard1 {
-  background-image: url(../../../../public/img/desserts.png);
-}
+  .restaurantIcon {
+    margin: auto;
+  }
 
-.splendidMenuCard2 {
-  background-image: url(../../../../public/img/coffee.png);
-}
+  .splendidMenuCard1 {
+    background-image: url(../../../../public/img/desserts.png);
+  }
 
-.splendidMenuCard3 {
-  background-image: url(../../../../public/img/breakfast.png);
-}
+  .splendidMenuCard2 {
+    background-image: url(../../../../public/img/coffee.png);
+  }
 
-.splendidMenuCard4 {
-  background-image: url(../../../../public/img/cocktails.png);
-}
+  .splendidMenuCard3 {
+    background-image: url(../../../../public/img/breakfast.png);
+  }
 
-.splendidMenuCardHeading {
-  font-family: Fraunces;
-  font-weight: 600;
-  font-size: 26px;
-  color: #ffffff;
-  padding-bottom: 40px;
-  height: 75px;
-}
+  .splendidMenuCard4 {
+    background-image: url(../../../../public/img/cocktails.png);
+  }
 
-.viewMenuButton {
-  cursor: pointer;
-  transition: transform 0.3s;
-}
+  .splendidMenuCardHeading {
+    font-family: Fraunces;
+    font-weight: 600;
+    font-size: 26px;
+    color: #ffffff;
+    padding-bottom: 40px;
+    height: 75px;
+  }
 
-.viewMenuButton:hover {
-  transform: scale(1.05);
+  .viewMenuButton {
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
 }

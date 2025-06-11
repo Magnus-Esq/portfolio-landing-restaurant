@@ -1,75 +1,158 @@
-.clientsSays {
-  height: 690px;
-  min-width: 1280px;
-  text-align: center;
-  background-color: #ffffff;
-  padding: 100px 0;
+/* Desktop version */
+@media (min-width: 768px) {
+  .clientsSays {
+    height: 690px;
+    min-width: 1280px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 100px 0;
+  }
+
+  .clientSaysHeadingBox {
+    height: 180px;
+    width: 855px;
+    margin: 0 auto;
+  }
+
+  .quotesIcon {
+    margin: auto;
+  }
+
+  .clientsSaysHeading {
+    font-family: Fraunces;
+    font-weight: 600;
+    font-size: 50px;
+    color: #0a0a0a;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .clientSaysReviewsBox {
+    height: 311px;
+    width: 855px;
+    margin: 0 auto;
+  }
+
+  .clientSaysReview {
+    height: 198px;
+    width: 839px;
+    margin: 0 auto;
+  }
+
+  .clientSaysText {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5e5e5e;
+  }
+
+  .clientSaysReviewAuthor {
+    height: 97px;
+    padding: 20px 0;
+  }
+
+  .clientSaysAvatars {
+    height: 132px;
+    padding-bottom: 32px;
+    margin: auto;
+  }
+
+  .reviewList {
+    height: 16px;
+    margin: 0 auto;
+  }
+
+  .clientSaysReviewAuthorName {
+    font-family: Fraunces;
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+  }
+
+  .clientSaysReviewAuthorRole {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+    color: #5e5e5e;
+  }
 }
 
-.clientSaysHeadingBox {
-  height: 180px;
-  width: 855px;
-  margin: 0 auto;
-}
+/* Mobile version */
+@media (max-width: 768px) {
+  .clientsSays {
+    height: 340px;
+    min-width: 340px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+  }
 
-.quotesIcon {
-  margin: auto;
-}
+  .clientSaysHeadingBox {
+    height: 80px;
+    width: 320px;
+    margin: 0 auto;
+  }
 
-.clientsSaysHeading {
-  font-family: Fraunces;
-  font-weight: 600;
-  font-size: 50px;
-  color: #0a0a0a;
-  text-align: center;
-  padding-top: 40px;
-}
+  .quotesIcon {
+    margin: auto;
+    height: 25px;
+  }
 
-.clientSaysReviewsBox {
-  height: 311px;
-  width: 855px;
-  margin: 0 auto;
-}
+  .clientsSaysHeading {
+    font-family: Fraunces;
+    font-weight: 600;
+    font-size: 22px;
+    color: #0a0a0a;
+    text-align: center;
+    padding-top: 10px;
+  }
 
-.clientSaysReview {
-  height: 198px;
-  width: 839px;
-  margin: 0 auto;
-}
+  .clientSaysReviewsBox {
+    height: 150px;
+    width: 320px;
+    margin: 0 auto;
+  }
 
-.clientSaysText {
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 16px;
-  color: #5e5e5e;
-}
+  .clientSaysReview {
+    height: 170px;
+    width: 320px;
+    margin: 0 auto;
+  }
 
-.clientSaysReviewAuthor {
-  height: 97px;
-  padding: 20px 0;
-}
+  .clientSaysText {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 11px;
+    color: #5e5e5e;
+  }
 
-.clientSaysAvatars {
-  height: 132px;
-  padding-bottom: 32px;
-  margin: auto;
-}
+  .clientSaysReviewAuthor {
+    height: 50px;
+    padding: 5px 0;
+  }
 
-.reviewList {
-  height: 16px;
-  margin: 0 auto;
-}
+  .clientSaysAvatars {
+    height: 80px;
+    padding-bottom: 20px;
+    margin: auto;
+  }
 
-.clientSaysReviewAuthorName {
-  font-family: Fraunces;
-  font-weight: 600;
-  font-size: 24px;
-  color: #000000;
-}
+  .reviewList {
+    height: 10px;
+    margin: 0 auto;
+  }
 
-.clientSaysReviewAuthorRole {
-  font-family: Inter;
-  font-weight: 700;
-  font-size: 16px;
-  color: #5e5e5e;
+  .clientSaysReviewAuthorName {
+    font-family: Fraunces;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+  }
+
+  .clientSaysReviewAuthorRole {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 10px;
+    color: #5e5e5e;
+  }
 }

@@ -1,195 +1,378 @@
-.hero {
-  height: 660px;
-  min-width: 1280px;
-  background-image: url('../../../../public/img/Hero.png');
-  background-size: cover;
-  background-repeat: no-repeat;
+/* Desktop version */
+@media (min-width: 768px) {
+  .hero {
+    height: 660px;
+    min-width: 1280px;
+    background-image: url('../../../../public/img/Hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .HeroPage {
+    height: 620px;
+    max-width: 1296px;
+    margin: auto;
+    position: relative;
+  }
+
+  .heroHeader {
+    padding-top: 20px;
+    padding-left: 72px;
+    padding-right: 72px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .headerLogo {
+    height: 40px;
+  }
+
+  .heroNav {
+    width: 340px;
+    height: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .heroMain {
+    margin: 42px 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .heroMainLeft {
+    width: 742px;
+    height: 286px;
+  }
+
+  .heroMainHeading {
+    font-family: Fraunces;
+    font-weight: 600;
+    font-size: 50px;
+    color: #ffffff;
+  }
+
+  .heroMainText {
+    padding: 24px 0;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5e5e5e;
+  }
+
+  .headerText {
+    font-family: Fraunces;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .headerText:hover {
+    color: #349705;
+  }
+
+  .heroButtons {
+    height: 40px;
+    display: flex;
+    gap: 8px;
+  }
+
+  .MainMenuButton,
+  .SeasonalMenuButton {
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+
+  .MainMenuButton:hover,
+  .SeasonalMenuButton:hover {
+    transform: scale(1.03);
+  }
+
+  .reservationBox {
+    background: white;
+    padding: 32px;
+    width: 340px;
+    height: 444px;
+    border-radius: 4px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    font-family: Inter;
+  }
+
+  .reservationLabel {
+    color: #349705;
+    font-family: Fraunces;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+
+  .reservationTitle {
+    font-size: 20px;
+    font-family: Fraunces;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+
+  .reservationBox form label {
+    display: block;
+    margin-bottom: 4px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .reservationBox form input,
+  .reservationBox form select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 3px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+  }
+
+  .reservationBox form button {
+    background-color: #349705;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Inter;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  .reservationBox form button:hover {
+    background-color: #43a047;
+  }
+
+  .heroLowerTextblock {
+    height: 52px;
+    width: 534px;
+    padding-right: 72px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .heroLowerTextblockUpper {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .phoneContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  .heroLowerTextblockBook {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    padding-right: 6px;
+  }
+
+  .heroLowerTextblockNumber {
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 20px;
+    color: #349705;
+  }
+
+  .heroLowerTextblockLower {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5e5e5e;
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 
-.HeroPage {
-  height: 620px;
-  max-width: 1296px;
-  margin: auto;
-  position: relative;
-}
+/* Mobile version */
+@media (max-width: 768px) {
 
-.heroHeader {
-  padding-top: 20px;
-  padding-left: 72px;
-  padding-right: 72px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-}
+  .hero {
+    width: 100%;
+    height: 860px;
+    min-width: 380px;
+    background-image: url('../../../../public/img/HeroMobile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
-.headerLogo {
-  height: 40px;
-}
+  .HeroPage {
+    height: 860px;
+    min-width: 380px;
+    margin: auto;
+  }
 
-.heroNav {
-  width: 340px;
-  height: 20px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-}
+  .heroHeader {
+    display: flex;
+    flex-direction: column;
+  }
 
-.heroMain {
-  margin: 42px 72px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+  .headerLogo {
+    height: 80px;
+    padding: 20px 0;
+    margin: auto;
+  }
 
-.heroMainLeft {
-  width: 742px;
-  height: 286px;
-}
+  .heroNav {
+    width: 340px;
+    height: 20px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+  }
 
-.heroMainHeading {
-  font-family: Fraunces;
-  font-weight: 600;
-  font-size: 50px;
-  color: #ffffff;
-}
+  .heroMain {
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-.heroMainText {
-  padding: 24px 0;
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 16px;
-  color: #5e5e5e;
-}
+  .heroMainLeft {
+    width: 340px;
+    height: 220px;
+    margin: auto;
+    text-align: center;
+  }
 
-.headerText {
-  font-family: Fraunces;
-  font-weight: 400;
-  font-size: 16px;
-  color: #ffffff;
-  cursor: pointer;
-}
+  .heroMainHeading {
+    font-family: Fraunces;
+    font-weight: 600;
+    font-size: 29px;
+    color: #ffffff;
+    padding-top: 10px;
+  }
 
-.headerText:hover {
-  color: #349705;
-}
+  .heroMainText {
+    padding: 10px 0;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 12px;
+    color: #5e5e5e;
+  }
 
-.heroButtons {
-  height: 40px;
-  display: flex;
-  gap: 8px;
-}
+  .headerText {
+    font-family: Fraunces;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+  }
 
-.MainMenuButton,
-.SeasonalMenuButton {
-  cursor: pointer;
-  transition: transform 0.3s;
-}
+  .heroButtons {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
 
-.MainMenuButton:hover,
-.SeasonalMenuButton:hover {
-  transform: scale(1.03);
-}
+  .reservationBox {
+    background: white;
+    padding: 32px;
+    width: 340px;
+    height: 444px;
+    border-radius: 4px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    font-family: Inter;
+  }
 
-.reservationBox {
-  background: white;
-  padding: 32px;
-  width: 340px;
-  height: 444px;
-  border-radius: 4px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  font-family: Inter;
-}
+  .reservationLabel {
+    color: #349705;
+    font-family: Fraunces;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
 
-.reservationLabel {
-  color: #349705;
-  font-family: Fraunces;
-  font-weight: 600;
-  font-size: 12px;
-  margin-bottom: 4px;
-}
+  .reservationTitle {
+    font-size: 20px;
+    font-family: Fraunces;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #000000;
+  }
 
-.reservationTitle {
-  font-size: 20px;
-  font-family: Fraunces;
-  font-weight: 600;
-  margin-bottom: 10px;
-  color: #000000;
-}
+  .reservationBox form label {
+    display: block;
+    margin-bottom: 4px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
 
-.reservationBox form label {
-  display: block;
-  margin-bottom: 4px;
-  margin-top: 10px;
-  font-size: 14px;
-}
+  .reservationBox form input,
+  .reservationBox form select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 3px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+  }
 
-.reservationBox form input,
-.reservationBox form select {
-  width: 100%;
-  padding: 5px;
-  margin-bottom: 3px;
-  font-size: 14px;
-  border: 1px solid #ddd;
-  border-radius: 0px;
-}
+  .reservationBox form button {
+    background-color: #349705;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Inter;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
 
-.reservationBox form button {
-  background-color: #349705;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 0px;
-  width: 100%;
-  font-weight: 600;
-  font-size: 14px;
-  font-family: Inter;
-  cursor: pointer;
-  transition: background 0.3s;
-}
+  .heroLowerTextblock {
+    height: 50px;
+    width: 340px;
+    margin: auto;
+  }
 
-.reservationBox form button:hover {
-  background-color: #43a047;
-}
+  .heroLowerTextblockUpper {
+    display: flex;
+    justify-content: center;
+  }
 
-.heroLowerTextblock {
-  height: 52px;
-  width: 534px;
-  padding-right: 72px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
+  .phoneContainer {
+    display: flex;
+    align-items: center;
+  }
 
-.heroLowerTextblockUpper {
-  display: flex;
-  justify-content: flex-end;
-}
+  .heroLowerTextblockBook {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    padding-right: 6px;
+  }
 
-.phoneContainer {
-  display: flex;
-  align-items: center;
-}
+  .heroLowerTextblockNumber {
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 17px;
+    color: #349705;
+  }
 
-.heroLowerTextblockBook {
-  font-family: Inter;
-  font-weight: 600;
-  font-size: 20px;
-  color: #ffffff;
-  padding-right: 6px;
-}
-
-.heroLowerTextblockNumber {
-  font-family: Fraunces;
-  font-weight: 700;
-  font-size: 20px;
-  color: #349705;
-}
-
-.heroLowerTextblockLower {
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 16px;
-  color: #5e5e5e;
-  display: flex;
-  justify-content: flex-end;
+  .heroLowerTextblockLower {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 10px;
+    color: #5e5e5e;
+    display: flex;
+    justify-content: center;
+  }
 }

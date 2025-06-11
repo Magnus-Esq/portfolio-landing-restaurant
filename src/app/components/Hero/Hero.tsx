@@ -42,9 +42,9 @@ export default function Hero() {
         </header>
         <div className={styles.heroMain}>
           <div className={styles.heroMainLeft}>
-            <h4 className={styles.heroMainHeading}>Best place to find your<br />food love</h4>
+            <h4 className={styles.heroMainHeading}>Best place to find your food love</h4>
             <p className={styles.heroMainText}>
-              Vel ullamcorper ultrices volutpat enim dignissim id purus. Urna quam massa urna<br />
+              Vel ullamcorper ultrices volutpat enim dignissim id purus. Urna quam massa urna 
               dolor enim dui lectus idristique dignissim pharetra
             </p>
             <div className={styles.heroButtons}>

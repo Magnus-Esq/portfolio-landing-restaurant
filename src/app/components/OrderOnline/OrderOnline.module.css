@@ -1,127 +1,261 @@
-.orderOnline {
-  height: 985px;
-  min-width: 1280px;
-  text-align: center;
-  padding: 60px 72px;
-  background-color: #FFFFFF;
+/* Desktop version */
+@media (min-width: 768px) {
+  .orderOnline {
+    height: 985px;
+    min-width: 1280px;
+    text-align: center;
+    padding: 60px 72px;
+    background-color: #FFFFFF;
+  }
+
+  .restaurantIcon {
+    margin: auto;
+  }
+
+  .orderOnlineTextblock {
+    text-align: center;
+    width: 700px;
+    height: 128px;
+    margin: auto;
+    margin-bottom: 45px;
+  }
+
+  .orderOnlineHeading {
+    font-family: Fraunces;
+    font-weight: 600;
+    font-size: 40px;
+    color: #0a0a0a;
+    padding-top: 4px;
+    padding-bottom: 24px;
+    height: 77px;
+  }
+
+  .orderOnlineText {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5E5E5E;
+  }
+
+  .orderMenu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .orderLeft {
+    width: 596px;
+    height: 692px;
+    padding-right: 24px;
+  }
+
+  .orderRight {
+    width: 596px;
+    height: 692px;
+    padding-left: 24px;
+  }
+
+  .orderMenuFood {
+    width: 572px;
+    height: 108px;
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .orderMenuFoodText {
+    width: 480px;
+    height: 54px;
+  }
+
+  .menuHeaderPizzas {
+    padding-bottom: 8px;
+  }
+
+  .menuHeaderSalads {
+    padding-bottom: 8px;
+  }
+
+  .menuHeaderMain {
+    padding-top: 64px;
+    padding-bottom: 8px;
+  }
+
+  .foodHeaderContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .foodHeader {
+    font-family: Fraunces;
+    font-weight: 600;
+    font-size: 20px;
+    color: #0a0a0a;
+  }
+
+  .foodCost {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    color: #0a0a0a;
+  }
+
+  .foodText {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5E5E5E;
+    text-align: left;
+    padding-left: 5px;
+  }
+
+  .avatarFood1,
+  .avatarFood2,
+  .avatarFood3,
+  .avatarFood4,
+  .avatarFood5,
+  .avatarFood6,
+  .avatarFood7,
+  .avatarFood8,
+  .avatarFood9,
+  .avatarFood10,
+  .avatarFood11 {
+    height: 84px;
+    width: 84px;
+    border-radius: 50%;
+    object-fit: fill;
+  }
 }
 
-.restaurantIcon {
-  margin: auto;
-}
+/* Mobile version */
+@media (max-width: 768px) {
+  .orderOnline {
+    height: 1388px;
+    min-width: 340px;
+    text-align: center;
+    padding: 30px 10px;
+    background-color: #FFFFFF;
+  }
 
-.orderOnlineTextblock {
-  text-align: center;
-  width: 700px;
-  height: 128px;
-  margin: auto;
-  margin-bottom: 45px;
-}
+  .restaurantIcon {
+    margin: auto;
+  }
 
-.orderOnlineHeading {
-  font-family: Fraunces;
-  font-weight: 600;
-  font-size: 40px;
-  color: #0a0a0a;
-  padding-top: 4px;
-  padding-bottom: 24px;
-  height: 77px;
-}
+  .orderOnlineTextblock {
+    text-align: center;
+    width: 300px;
+    height: 130px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
 
-.orderOnlineText {
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 16px;
-  color: #5E5E5E;
-}
+  .orderOnlineHeading {
+    font-family: Fraunces;
+    font-weight: 600;
+    font-size: 29px;
+    color: #0a0a0a;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    height: 50px;
+  }
 
-.orderMenu {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-}
+  .orderOnlineText {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 13px;
+    color: #5E5E5E;
+  }
 
-.orderLeft {
-  width: 596px;
-  height: 692px;
-  padding-right: 24px;
-}
+  .orderMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-.orderRight {
-  width: 596px;
-  height: 692px;
-  padding-left: 24px;
-}
+  .orderLeft {
+    width: 320px;
+    height: 552px;
+  }
 
-.orderMenuFood {
-  width: 572px;
-  height: 108px;
-  padding-top: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+  .orderRight {
+    width: 320px;
+    height: 626px;
+  }
 
-.orderMenuFoodText {
-  width: 480px;
-  height: 54px;
-}
+  .orderMenuFood {
+    width: 320px;
+    height: 90px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-.menuHeaderPizzas {
-  padding-bottom: 8px;
-}
+  .orderMenuFoodText {
+    width: 220px;
+    height: 54px;
+  }
 
-.menuHeaderSalads {
-  padding-bottom: 8px;
-}
+  .menuHeaderPizzas {
+    padding-top: 30px;
+    margin: auto;
+  }
 
-.menuHeaderMain {
-  padding-top: 64px;
-  padding-bottom: 8px;
-}
+  .menuHeaderSalads {
+    margin: auto;
+  }
 
-.foodHeaderContainer {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-}
+  .menuHeaderMain {
+    padding-top: 30px;
+    margin: auto;
+  }
 
-.foodHeader {
-  font-family: Fraunces;
-  font-weight: 600;
-  font-size: 20px;
-  color: #0a0a0a;
-}
+  .foodHeaderContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
 
-.foodCost {
-  font-family: Inter;
-  font-weight: 600;
-  font-size: 20px;
-  color: #0a0a0a;
-}
+  .foodHeader {
+    font-family: Fraunces;
+    font-weight: 600;
+    font-size: 16px;
+    color: #0a0a0a;
+  }
 
-.foodText {
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 16px;
-  color: #5E5E5E;
-  text-align: left;
-  padding-left: 5px;
-}
+  .foodCost {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 15px;
+    color: #0a0a0a;
+  }
 
-.avatarFood1,
-.avatarFood2,
-.avatarFood3,
-.avatarFood4,
-.avatarFood5,
-.avatarFood6,
-.avatarFood7,
-.avatarFood8,
-.avatarFood9,
-.avatarFood10,
-.avatarFood11 {
-  height: 84px;
-  width: 84px;
-  border-radius: 50%;
-  object-fit: fill;
+  .foodText {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 12px;
+    color: #5E5E5E;
+    text-align: left;
+    padding-left: 5px;
+  }
+
+  .avatarFood1,
+  .avatarFood2,
+  .avatarFood3,
+  .avatarFood4,
+  .avatarFood5,
+  .avatarFood6,
+  .avatarFood7,
+  .avatarFood8,
+  .avatarFood9,
+  .avatarFood10,
+  .avatarFood11 {
+    height: 84px;
+    width: 84px;
+    border-radius: 50%;
+    object-fit: fill;
+  }
 }
